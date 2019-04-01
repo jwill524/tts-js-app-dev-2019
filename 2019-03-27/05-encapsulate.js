@@ -6,6 +6,8 @@ const getFixed = (coordinate, nDigits) => {
   const gotFixed = coordinate.toFixed(nDigits);
   const gotString = coordinate.toString();
 
+  return gotFixed.length < gotString.length ? gotFixed : gotString;
+
   // TODO return shorter string with ternary expression
 };
 
