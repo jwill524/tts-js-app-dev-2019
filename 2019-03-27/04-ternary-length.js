@@ -18,6 +18,12 @@ const n = 3;
 for (let i = 0; i < examples.length; i += 1) {
   const example = examples[i];
 
+var gotFixed= n;
+var gotString= examples;
+
+
+gotFixed.length< gotString.length?console.log(gotFixed):console.log(gotString)
+
   // TODO initialize gotFixed for n digits
   // TODO initialize gotString
   // TODO within one console.log statement use ternary to output shorter string
