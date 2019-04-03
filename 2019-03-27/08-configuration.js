@@ -1,7 +1,7 @@
 // Given number and configuration object for noun,
 // return phrase for that number of the noun.
 const pluralize = (number, configuration) =>
-  `${number}${configuration}${number===1 ? singular:suffix}`;
+  `${number}${number===1 ? configuration.singular: configuration.singular+ configuration.suffix}`;
 
 
 const thing = {
