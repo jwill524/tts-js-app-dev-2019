@@ -2,11 +2,11 @@
 
 
 ## Recap
-- Last week we talked about functions
+- Yesterday we talked about functions
 	- function
 	- scope
 	- closures
-- Tonight, we'll cover  
+- Today, we'll cover  
 	- Passing functions as arguments
 	- Higher Order Functions
 	- working with Array data
@@ -76,7 +76,7 @@ var students = [
 ];
 
 var passingStudents = students.filter(function(student){
-	return student.average > 50;
+	return student.average > 60;
 });
 
 passingStudents === [
